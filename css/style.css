@@ -113,6 +113,10 @@
 
 
 @media (max-width: 600px){
+    /* 메인배너 */
+    #banner .slideImg h2 {position: absolute; left: 50%; top: 50%; z-index: 2; transform: translate(-50%,-50%); color: #fff; font-size: 40px; line-height: 46px;}
+    #banner .slideImg p {position: absolute; left: 50%; top: 50%; font-size: 16px; z-index: 2; color: #fff; transform: translate(-50%,-50%);
+     margin-top: 72px; line-height: 24px;}
     
     /* 로고와 내용 */
     #ban-txt .row {padding: 15px;}
@@ -155,7 +159,6 @@
 }
 
 @media (max-width: 400px){
-    /* 메인배너 */
-    #banner .slideImg h2 {position: absolute; left: 50%; top: 50%; z-index: 2; transform: translate(-50%,-50%); color: #fff; font-size: 20px; line-height: 1.2;}
+
   
 }
